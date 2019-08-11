@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/backimg.png);
+    background-size: cover;
+    position: fixed;
+}
+
+.container h1{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+/*     DATA */
+
+.data{
+    height: 250px;
+    width: 600px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.material, .author-quote p{
+    color: white;
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+
+/* button style */
+
+.btn {
+    color: #EF1B78;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    margin-left: 710px;
+    background-color: #fff;
+    margin-top: 5px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* footer */
+
+footer{
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Segoe UI';
+}
+
+
+
+
+
+
+/* MEDIA Q.  */
+@media only screen and (max-width: 991px) {
+
+
+    .btn {
+        margin-left: 270px;
+    }
+
+    .data{
+        margin-left: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .material, .author-quote p{
+        color: white;
+        margin: 0;
+        font-family: 'Segoe UI';
+        font-size: 15px;
+    }
+    
+
+
+.btn{
+    margin-left: 140px;
+}
+
+.data{
+        border: 2px solid black;
+        height: 200px;
+        width: 300px;
+        
+    
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+}
